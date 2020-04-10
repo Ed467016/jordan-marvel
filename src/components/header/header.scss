@@ -1,0 +1,29 @@
+.header__container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header__container--left,
+  .header__container--middle,
+  .header__container--right {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .pseudo_container {
+    height: 100%;
+
+    div {
+      margin-top: 5px;
+    }
+  }
+
+  .header__container--left {
+    img {
+      margin-top: 5px;
+      margin-left: 25px;
+    }
+  }
+}

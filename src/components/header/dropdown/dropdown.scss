@@ -1,0 +1,23 @@
+.dropdown__container {
+  height: 90px;
+  display: flex;
+  align-items: center;
+
+  .dropdown__container--inner {
+    display: grid;
+    margin-top: 10px;
+    
+    .dropdown__container--inner__title {
+      font-size: 15px;
+      padding: 0 21px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    .dropdown__container--inner__icon {
+      margin: 0 auto;
+    }
+  }
+}

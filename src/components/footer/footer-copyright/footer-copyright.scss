@@ -1,0 +1,25 @@
+.footer-copyright {
+  height: 50px;
+
+  .footer-copyright__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .row {
+      justify-content: space-between;
+
+      .link {
+        color: #707070;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .footer-copyright__container__policies {
+        .link {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

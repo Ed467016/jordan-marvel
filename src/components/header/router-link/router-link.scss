@@ -1,0 +1,38 @@
+.router-link__container {
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+
+  .router-link__container__link {
+    font-size: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 100px;
+    border-top: 5px solid transparent;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    &:hover {
+      color: black;
+    }
+
+    &.router-link-active {
+      border-top: 5px $primary-color solid;
+
+      span {
+        color: $primary-color;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
