@@ -1,0 +1,13 @@
+.footer-recommended-apps {
+  height: 150px;
+  display: flex;
+  align-items: center;
+
+  .footer-recommended-apps__container {
+    .footer-recommended-apps__icon {
+      .tripadvisor {
+        margin-left: -12px;
+      }
+    }
+  }
+}
