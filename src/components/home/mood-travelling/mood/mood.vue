@@ -1,13 +1,13 @@
 <template>
   <div class="mood">
     <div class="mood_cards">
-      <card-component title="Getaway with friends">
+      <card-component title="Getaway with friends" linkText="86 Destinations" linkTo="#">
         <template v-slot:background>
           <div class="first">
           </div>
         </template>
       </card-component>
-      <card-component title="Getaway with friends">
+      <card-component title="Getaway with friends" linkText="86 Destinations" linkTo="#">
         <template v-slot:background>
           <div class="second">
           </div>
@@ -16,13 +16,13 @@
     </div>
 
     <div class="mood_cards">
-      <card-component title="Getaway with friends">
+      <card-component title="Getaway with friends" linkText="86 Destinations" linkTo="#">
         <template v-slot:background>
           <div class="third">
           </div>
         </template>
       </card-component>
-      <card-component title="Getaway with friends">
+      <card-component title="Getaway with friends" linkText="86 Destinations" linkTo="#">
         <template v-slot:background>
           <div class="fourth">
           </div>

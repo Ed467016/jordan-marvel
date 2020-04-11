@@ -1,14 +1,20 @@
+@import '@/shared/scss/_links';
+
 .button-link {
   background-color: #F1ECE5;
   border-radius: 5px;
-  display: flex;
   align-items: center;
 
+  &:hover {
+    background-color: #E1D3BF;
+  }
+
   .link__title {
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
     margin-right: 10px;
     padding-left: 10px;
+  }
+
+  .link__arrow {
+    padding-right: 10px;
   }
 }
