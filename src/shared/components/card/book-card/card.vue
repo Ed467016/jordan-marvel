@@ -17,7 +17,7 @@
             </div>
           </div>
           <div class="card__content__inner__book-now">
-            <link-component class="gold" title="Book Now" to="#"></link-component>
+            <link-component title="Book Now" to="#"></link-component>
           </div>
         </div>
       </div>
