@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    Home
     <carousel-component></carousel-component>
   </div>
 </template>
