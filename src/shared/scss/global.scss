@@ -3,7 +3,35 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
-.marvel-container {
-  width: 85%;
-  margin: 0 auto;
+#app {
+  .marvel-container {
+    width: $container-width;
+    margin: 0 auto;
+  }
+
+  .section {
+    display: flex;
+
+    .marvel-container {
+      margin-left: 0;
+    }
+
+    .section__title {
+      font-size: $section-title-ft-size;
+      font-weight: $section-title-ft-weight;
+      color: $section-title-ft-color;
+    }
+
+    .section__divider {
+      width: calc((100% - #{$container-width}) / 2);
+
+      .section__divider--divider {
+        width: 75%;
+        text-align: center;
+        border-top: 1px #BFBFBF solid;
+        line-height: 0.1rem;
+        margin: 35px 0 20px;
+      }
+    }
+  }
 }
