@@ -8,7 +8,7 @@
       <div class="mood-travelling__content">
         <div class="row no-gutters">
           <div class="col-md-8 col-12">
-            <div class="section__title">
+            <div class="section__title mb-1">
               <p>What's your mood?</p>
             </div>
             <div class="mood-travelling__content">
@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class="col-md-4 col-12">
-            <div class="section__title">
+            <div class="section__title mb-1">
               <p>Travelling with us</p>
             </div>
             <div class="mood-travelling__content">

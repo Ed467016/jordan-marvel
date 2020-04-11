@@ -6,6 +6,7 @@
 #app {
   .marvel-container {
     width: $container-width;
+    max-width: $container-width;
     margin: 0 auto;
   }
 
@@ -28,7 +29,7 @@
       width: calc((100% - #{$container-width}) / 2);
 
       .section__left--divider {
-        width: 75%;
+        width: $container-width;
         text-align: center;
         border-top: 1px #bfbfbf solid;
         line-height: 0.1rem;

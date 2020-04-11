@@ -1,6 +1,6 @@
 <template>
   <div class="featured-programs">
-    <div class="featured-programs__header mb-5">
+    <div class="featured-programs__header mb-1">
       <div class="section__left">
         <div class="section__left--divider"></div>
       </div>

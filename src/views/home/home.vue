@@ -7,6 +7,12 @@
     </div>
     <div class="section">
       <featured-programs-component></featured-programs-component>
+    </div>  
+    <div class="section">
+      <premium-jordan-experiencies-component></premium-jordan-experiencies-component>
+    </div>
+    <div class="section">
+      <reviews-component></reviews-component>
     </div>
   </div>
 </template>
