@@ -10,7 +10,7 @@
             <p>Premium Jordan experiences</p>
           </div>
           <div class="premium-jordan-experiences--view-all">
-            <link-component title="Add Your Review" to="#"></link-component>
+            <link-component title="View All" to="#"></link-component>
           </div>
         </div>
       </div>

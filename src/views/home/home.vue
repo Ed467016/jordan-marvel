@@ -10,6 +10,9 @@
     <div class="section">
       <premium-jordan-experiencies-component></premium-jordan-experiencies-component>
     </div>
+    <div class="section">
+      <reviews-component></reviews-component>
+    </div>
   </div>
 </template>
 

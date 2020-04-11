@@ -6,6 +6,7 @@
 #app {
   .marvel-container {
     width: $container-width;
+    max-width: $container-width;
     margin: 0 auto;
   }
 

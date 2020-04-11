@@ -1,0 +1,38 @@
+.review {
+  width: 524px;
+  height: 258.63px;
+  display: flex;
+  justify-content: center;
+
+  &.up {
+    background: url('./assets/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &.down {
+    background: url('./assets/background-down.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .review__content {
+      margin-top: 60px;
+    }
+  }
+
+  .review__content {
+    width: 80%;
+    height: 65%;
+    max-height: 65%;
+    overflow-y: auto;
+    margin-top: 25px;
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+}
