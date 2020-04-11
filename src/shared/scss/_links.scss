@@ -1,0 +1,11 @@
+@import './variables';
+
+.link {
+  .link__title {
+    color: $link-color;
+    font-weight: $link-font-weight;
+    font-size: $link-font-size;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+}

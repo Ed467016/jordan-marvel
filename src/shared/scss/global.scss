@@ -1,7 +1,7 @@
-@import './fonts';
-@import './_variables.scss';
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import "./fonts";
+@import "./_variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";
 
 #app {
   .marvel-container {
@@ -11,6 +11,7 @@
 
   .section {
     display: flex;
+    margin-bottom: $section-bottom-spaceing;
 
     .marvel-container {
       margin-left: 0;
@@ -20,21 +21,26 @@
       font-size: $section-title-ft-size;
       font-weight: $section-title-ft-weight;
       color: $section-title-ft-color;
+      white-space: nowrap;
     }
 
-    .section__divider {
+    .section__left {
       width: calc((100% - #{$container-width}) / 2);
 
-      .section__divider--divider {
+      .section__left--divider {
         width: 75%;
         text-align: center;
-        border-top: 1px #BFBFBF solid;
+        border-top: 1px #bfbfbf solid;
         line-height: 0.1rem;
         margin: 35px 0 20px;
       }
     }
-  }
 
+    .section__right {
+      width: calc((100% - #{$container-width}) / 2);
+    }
+  }
+  
   .flex {
     display: flex;
   }

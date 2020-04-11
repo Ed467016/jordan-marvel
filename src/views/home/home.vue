@@ -3,12 +3,10 @@
     <carousel-component></carousel-component>
     <search-component></search-component>
     <div class="section">
-      <div class="section__divider">
-        <div class="section__divider--divider"></div>
-      </div>
-      <div class="marvel-container">
-        <mood-travelling-component></mood-travelling-component>
-      </div>
+      <mood-travelling-component></mood-travelling-component>
+    </div>
+    <div class="section">
+      <featured-programs-component></featured-programs-component>
     </div>
   </div>
 </template>
