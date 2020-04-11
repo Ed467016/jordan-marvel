@@ -1,10 +1,7 @@
 <template>
   <div id="app">
     <header-component></header-component>
-    <router-view />
-    <div style="height: 1200px; background-color: yellow">
-      
-    </div>
+      <router-view />
     <footer-component></footer-component>
   </div>
 </template>
