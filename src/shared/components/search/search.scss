@@ -1,0 +1,43 @@
+.search-container {
+  .marvel-container {
+    height: 120px;
+    border: 1px solid grey;
+  }
+
+  .search-container__where {
+    $left-margin: 50px;
+
+    .search-container__where-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .search-container__where-dropdown {
+      font-size: 22px;
+      opacity: 0.8;
+      color: gray;
+      font-weight: 200;
+      margin-left: $left-margin;
+    }
+
+    .search-container__where-title {
+      font-weight: bold;
+      margin-left: $left-margin;
+    }
+  }
+
+  .search-container__date {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+  }
+
+  .search-container__traveler {
+    // border: 1px solid grey;
+  }
+
+  .search-container__button {
+    background-color: $yellow-color;
+  }
+}

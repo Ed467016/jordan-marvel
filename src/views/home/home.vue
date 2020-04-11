@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <carousel-component></carousel-component>
+    <search-component></search-component>
     <div class="section">
       <div class="section__divider">
         <div class="section__divider--divider"></div>
