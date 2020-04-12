@@ -1,9 +1,48 @@
-@import './fonts';
-@import './_variables.scss';
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import "./fonts";
+@import "./_variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";
 
-.marvel-container {
-  width: 85%;
-  margin: 0 auto;
+#app {
+  .marvel-container {
+    width: $container-width;
+    max-width: $container-width;
+    margin: 0 auto;
+  }
+
+  .section {
+    display: flex;
+    margin-bottom: $section-bottom-spaceing;
+
+    .marvel-container {
+      margin-left: 0;
+    }
+
+    .section__title {
+      font-size: $section-title-ft-size;
+      font-weight: $section-title-ft-weight;
+      color: $section-title-ft-color;
+      white-space: nowrap;
+    }
+
+    .section__left {
+      width: calc((100% - #{$container-width}) / 2);
+
+      .section__left--divider {
+        width: $container-width;
+        text-align: center;
+        border-top: 1px #bfbfbf solid;
+        line-height: 0.1rem;
+        margin: 35px 0 20px;
+      }
+    }
+
+    .section__right {
+      width: calc((100% - #{$container-width}) / 2);
+    }
+  }
+  
+  .flex {
+    display: flex;
+  }
 }

@@ -1,6 +1,12 @@
+import Vue from "vue";
 import {
-  BButton
-} from 'bootstrap-vue'
+  BButton,
+  CarouselPlugin,
+  BootstrapVue,
+} from 'bootstrap-vue';
+
+Vue.use(BootstrapVue);
+Vue.use(CarouselPlugin)
 
 const components = {
   'b-button': BButton,

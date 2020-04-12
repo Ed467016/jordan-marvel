@@ -1,0 +1,20 @@
+@import '@/shared/scss/_links';
+
+.default-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .link__divider {
+    width: 35px;
+    border-top: 1px white solid;
+    line-height: 0.1rem;
+    margin-right: 15px;
+  }
+
+  .link__title {
+    color: white;
+    margin-right: 15px;
+  }
+}

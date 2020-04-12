@@ -1,0 +1,58 @@
+.premium-jordan-experiences {
+  width: 100%;
+
+  .premium-jordan-experiences__header {
+    width: 100%;
+    display: flex;
+
+    .premium-jordan-experiences--middle {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .premium-jordan-experiences__content {
+    .marvel-container {
+      margin-left: calc((100% - #{$container-width}) / 2) !important;
+
+      .premium-jordan-experiences__cards {
+        display: flex;
+        margin-bottom: 25px;
+
+        .first {
+          background: url('./assets/firstcard.svg');
+        }
+
+        .second {
+          background: url('./assets/secondcard.svg');
+        }
+
+        .third {
+          background: url('./assets/thirdcard.svg');
+        }
+
+        .first,
+        .second,
+        .third {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        .premium-card {
+          width: 100%;
+          height: 650px;
+          height: 450px;
+  
+          &:not(:last-child) {
+            margin-right: 25px;
+          }
+        }
+      }
+    }
+  }
+}

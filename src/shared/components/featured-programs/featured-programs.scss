@@ -1,0 +1,84 @@
+.featured-programs {
+  width: 100%;
+
+  .featured-programs__header {
+    width: 100%;
+    display: flex;
+
+    .featured-programs__header--middle {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .featured-programs__content {
+    display: flex;
+
+    .section__right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .featured-programs__content--back-btn,
+    .featured-programs__content--forward-btn {
+      height: 100%;
+      width: 75%;
+      display: flex;
+      align-items: center;
+
+      button {
+        background-color: #F1ECE5;
+        max-height: 400px;
+        display: flex;
+        justify-content: center;
+
+        &:hover {
+          background-color: #E1D3BF;
+        }
+      }
+    }
+
+    .featured-programs__cards {
+      display: flex;
+      margin-bottom: 25px;
+
+      .first {
+        background: url('./assets/firstcard.svg');
+      }
+
+      .second {
+        background: url('./assets/secondcard.svg');
+      }
+
+      .third {
+        background: url('./assets/thirdcard.svg');
+      }
+
+      .fourth {
+        background: url('./assets/fourthcard.svg');
+      }
+
+      .first,
+      .second,
+      .third,
+      .fourth {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .book-card {
+        width: 100%;
+        height: 450px;
+
+        &:not(:last-child) {
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+}

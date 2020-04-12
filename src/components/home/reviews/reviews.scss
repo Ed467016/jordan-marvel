@@ -1,0 +1,43 @@
+.reviews {
+  width: 100%;
+
+  .reviews__header {
+    width: 100%;
+    display: flex;
+
+    .reviews--middle {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .reviews__content {
+    .marvel-container {
+      margin-left: calc((100% - #{$container-width}) / 2) !important;
+
+      .reviews__content__review {
+        max-width: 100%;
+        overflow-x: auto;
+
+        .reviews__content__review__text {
+          display: flex;
+          margin-left: -20px;
+
+          &.below {
+            margin-left: 250px;
+          }
+        }
+
+        .reviews__content__review__users {
+          display: flex;
+
+          .user {
+            margin-right: 55px;
+          }
+        }
+      }
+    }
+  }
+}

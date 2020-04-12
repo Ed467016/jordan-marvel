@@ -1,0 +1,13 @@
+@import './variables';
+
+.link {
+  max-height: 40px;
+
+  .link__title {
+    color: $link-color;
+    font-weight: $link-font-weight;
+    font-size: $link-font-size;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+}
