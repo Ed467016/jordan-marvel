@@ -9,7 +9,7 @@
         <div class="row no-gutters">
           <div class="col-md-8 col-12">
             <div class="section__title mb-1">
-              <p>What's your mood?</p>
+              What's your mood?
             </div>
             <div class="mood-travelling__content">
               <div class="row no-gutters">
@@ -21,7 +21,7 @@
           </div>
           <div class="col-md-4 col-12">
             <div class="section__title mb-1">
-              <p>Travelling with us</p>
+              Travelling with us
             </div>
             <div class="mood-travelling__content">
               <div class="row no-gutters h-100">

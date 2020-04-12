@@ -19,6 +19,12 @@
     width: 50%;
   }
 
+  .slide-container__right {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+
   .slide-container__header {
     text-align: left;
     color: white;
@@ -41,8 +47,7 @@
     display: flex;
     position: absolute;
     bottom: 0;
-    margin-bottom: 200px;
-    margin-left: 120px;
+    margin-bottom: 180px;
 
     .slide-container__map-text {
       text-align: left;
@@ -58,7 +63,7 @@
     }
 
     @media (max-width: 1200px) {
-      margin-top: 50px;
+      margin-bottom: 250px;
     }
   }
 
@@ -70,7 +75,6 @@
 
   .slide-container__link {
     font-size: 20px;
-    margin-left: 15px;
     color: white;
   }
 }

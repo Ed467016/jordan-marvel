@@ -19,12 +19,12 @@
                   <router-link class="slide-container__link" to="#">
                     <img src="./assets/plane.svg" /> BOOK A TRIP
                   </router-link>
-                  <router-link class="slide-container__link" to="#">
+                  <router-link class="slide-container__link ml-2" to="#">
                     <img src="./assets/car.svg" /> RENT A CAR
                   </router-link>
                 </div>
               </div>
-              <div class="slide-container__right">
+              <div class="slide-container__right flex">
                 <div class="slide-container__map">
                   <img src="./assets/map.svg" />
                   <div class="slide-container__map-text">
@@ -32,9 +32,8 @@
                     <div class="slide-container__map-text-place">
                       AL - Khazneh, Petra
                     </div>
-                    <router-link class="slide-container__link" to="#">
-                      DISCOVER DESTINATION
-                    </router-link>
+                    <link-component title="DISCOVER DESTINATION" class="slide-container__link" to="#">
+                    </link-component>
                   </div>
                 </div>
               </div>
@@ -63,7 +62,7 @@
                   <router-link class="slide-container__link" to="#">
                     <img src="./assets/plane.svg" /> BOOK A TRIP
                   </router-link>
-                  <router-link class="slide-container__link" to="#">
+                  <router-link class="slide-container__link ml-2" to="#">
                     <img src="./assets/car.svg" /> RENT A CAR
                   </router-link>
                 </div>
@@ -76,9 +75,8 @@
                     <div class="slide-container__map-text-place">
                       AL - Khazneh, Petra
                     </div>
-                    <router-link class="slide-container__link" to="#">
-                      DISCOVER DESTINATION
-                    </router-link>
+                    <link-component title="DISCOVER DESTINATION" class="slide-container__link" to="#">
+                    </link-component>
                   </div>
                 </div>
               </div>

@@ -1,13 +1,23 @@
 .search-container {
+  $border-color: gray;
+  width: 100%;
   .marvel-container {
     height: 120px;
-    border: 1px solid grey;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    background-color: white;
   }
 
   .search-container__where {
-    $left-margin: 50px;
+    justify-content: space-around;
 
     .search-container__where-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .search-container__where-right {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -17,27 +27,50 @@
     .search-container__where-dropdown {
       font-size: 22px;
       opacity: 0.8;
-      color: gray;
+      color: $section-title-ft-color;
       font-weight: 200;
-      margin-left: $left-margin;
     }
 
     .search-container__where-title {
       font-weight: bold;
-      margin-left: $left-margin;
     }
   }
 
-  .search-container__date {
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+  .search-container__date-container {
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    align-items: center;
+    justify-content: space-around;
+
+    .search-container__date {
+      font-size: 25px;
+      font-weight: 350;
+    }
+  }
+
+  .search-container__title {
+    font-size: 17px;
+    font-weight: bold;
   }
 
   .search-container__traveler {
-    // border: 1px solid grey;
+    flex-direction: column;
+    justify-content: center;
+    .search-container__title {
+      margin-left: 30px;
+    }
+
+    .search-container__content-text {
+      font-size: 25px;
+      font-weight: 350;
+      margin-left: 30px;
+    }
   }
 
   .search-container__button {
+    cursor: pointer;
+    justify-content: center;
+    border-left: 1px solid $border-color;
     background-color: $yellow-color;
   }
 }

@@ -1,9 +1,15 @@
 <template>
   <div class="home">
-    <carousel-component></carousel-component>
-    <search-component></search-component>
-    <div class="section">
-      <mood-travelling-component></mood-travelling-component>
+    <div>
+      <div class="first-section">
+        <carousel-component class="carousel"></carousel-component>
+        <search-component class="search"></search-component>
+      </div>
+    </div>
+    <div class="second-section">
+      <div class="section">
+        <mood-travelling-component></mood-travelling-component>
+      </div>
     </div>
     <div class="section">
       <featured-programs-component></featured-programs-component>
@@ -17,8 +23,6 @@
   </div>
 </template>
 
-<script src='./home.js'>
-</script>
+<script src="./home.js"></script>
 
-<style lang="scss" src="./home.scss">
-</style>
+<style lang="scss" src="./home.scss"></style>
