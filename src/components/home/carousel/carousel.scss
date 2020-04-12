@@ -1,9 +1,10 @@
-.carousel-control-prev, .carousel-control-next {
-    width: 5%;
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
 }
 
 .carousel {
-   text-shadow: 1px 1px 2px #333;
+  text-shadow: 1px 1px 2px #333;
 }
 
 .slide-container {
@@ -17,6 +18,12 @@
 
   .slide-container__left {
     width: 50%;
+  }
+
+  .default-link {
+    .link__divide {
+      width: 50px;
+    }
   }
 
   .slide-container__right {
