@@ -3,7 +3,6 @@
     <div class="section__left">
       <div class="section__left--divider"></div>
     </div>
-
     <div class="marvel-container">
       <div class="mood-travelling__content">
         <div class="row no-gutters">
